@@ -822,6 +822,14 @@ if __name__ == '__main__':
                                                                          refineIter=args.refineIter)
     print('Elapsed time: %.2f' % (time.time() - s_time))
     panoEdge = (panoEdge > 0)
+    
+    print('onlines: %i'% len(olines))
+    print('vp: %i'% len(vp))
+    print('views: %i'% len(views))
+    print('edges: %i'% len(edges))
+    print('panoEdge: %i'% len(panoEdge))
+    print('score: %f'% score)
+    print('angle: %f'% angle[-1])
 
     print('Vanishing point:')
     for v in vp[2::-1]:
