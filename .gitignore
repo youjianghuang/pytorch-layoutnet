@@ -107,3 +107,6 @@ venv.bak/
 testdata/ckpt.zip
 testdata/
 .settings/
+*.zip
+*.png
+*.jpg
